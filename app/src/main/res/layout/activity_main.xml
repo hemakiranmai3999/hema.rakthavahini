@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:background="@color/blood_red"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🩸"
+            android:textSize="48sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rakta-Vahini"
+            android:textColor="@color/white"
+            android:textSize="32sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LifeLine. On Demand."
+            android:textColor="#FFCDD2"
+            android:textSize="14sp"
+            android:layout_marginTop="4dp"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="24dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="What do you want to do?"
+                android:textSize="18sp"
+                android:textColor="@color/text_secondary"
+                android:layout_marginBottom="24dp"
+                android:layout_marginTop="8dp"/>
+
+            <Button
+                android:id="@+id/btnSearch"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:text="Find Blood Donors"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/blood_red"
+                android:layout_marginBottom="16dp"/>
+
+            <Button
+                android:id="@+id/btnRegister"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:text="Register as Donor"
+                android:textSize="18sp"
+                android:textColor="@color/blood_red"
+                android:backgroundTint="#FFEBEE"
+                android:layout_marginBottom="16dp"/>
+
+            <Button
+                android:id="@+id/btnLog"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:text="My Donation Log"
+                android:textSize="18sp"
+                android:textColor="@color/blood_red"
+                android:backgroundTint="#FFEBEE"
+                android:layout_marginBottom="32dp"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Did You Know?"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:textColor="@color/blood_red"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="One blood donation can save up to 3 lives. You can donate every 90 days."
+                        android:textSize="14sp"
+                        android:textColor="@color/text_secondary"
+                        android:layout_marginTop="8dp"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

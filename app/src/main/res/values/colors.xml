@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blood_red">#C0392B</color>
+    <color name="blood_red_dark">#922B21</color>
+    <color name="blood_red_light">#E74C3C</color>
+    <color name="white">#FFFFFF</color>
+    <color name="light_gray">#F5F5F5</color>
+    <color name="mid_gray">#BDBDBD</color>
+    <color name="dark_gray">#424242</color>
+    <color name="eligible_green">#27AE60</color>
+    <color name="card_bg">#FAFAFA</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+</resources>

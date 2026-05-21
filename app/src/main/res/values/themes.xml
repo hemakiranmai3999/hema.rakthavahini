@@ -1,0 +1,8 @@
+<resources>
+    <style name="Theme.RaktaVahini" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/blood_red</item>
+        <item name="colorPrimaryDark">@color/blood_red_dark</item>
+        <item name="colorAccent">@color/blood_red_light</item>
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+</resources>
